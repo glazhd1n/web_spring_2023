@@ -1,0 +1,289 @@
+.main {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #eff2f5;
+}
+footer {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+.doered {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.ered {
+    position: absolute;
+    margin: 0px auto 0px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 980px;
+    height: 496px;
+    left: 0;
+    right: 0;
+}
+
+.submit-button {
+    width: 396px;
+    height: 48px;
+    padding-top: 6px;
+}
+
+.vhod-button {
+    margin: auto;
+    display: block;
+    border-radius: 6px;
+    background-color: #1877f2;
+    border-color: rgb(255, 255, 255);
+    width: 364px;
+    height: 48px;
+    border-width: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    font-size: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.reg-div {
+    width: 396px;
+    height: 54px;
+    padding-top: 6px;
+    font-family: inherit;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.reg-account {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    width: 201px;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 6px;
+    background-color: rgb(66, 183, 42);
+    color: white;
+    text-decoration: none;
+}
+
+.vhod-button:hover {
+    background-color: #146ad9;
+    text-align: center;
+}
+
+.facebook-union {
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    top: 0;
+    width: 500px;
+    height: 96px;
+}
+
+.forgot-password {
+    height: 18px;
+    width: 396px;
+    margin-top: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    text-align: center;
+}
+
+.liniya {
+    width: 364px;
+    height: 0px;
+    margin-top: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    border-bottom: black 1px solid;
+    border-bottom-color: rgb(218, 221, 225);
+}
+
+.fp {
+    color: rgb(24, 119, 242);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.fp:hover {
+    text-decoration: underline;
+}
+
+
+.textt {
+    margin: auto;
+    display: block;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    width: 364px;
+    height: 52px;
+}
+
+.inputtext {
+    padding-left: 16px;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    border-radius: 6px;
+    border-width: 1px;
+    font-weight: 400;
+    height: 22px;
+    width: 330px;
+}
+
+.forms {
+    position: absolute;
+    align-items: center;
+    right: 0;
+    top: 0;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 24px;
+    border-color: rgb(28, 30, 33);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+    width: 395px;
+    height: 315px;
+}
+
+.forms-dd {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 23px;
+    margin-right: 3px;
+    width: 396px;
+    height: 456px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+}
+
+.fffooorms {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+}
+
+
+.ahaha {
+    width: 396px;
+    height: 132px;
+    align-content: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.babab {
+    text-decoration: none;
+    color: rgb(28, 30, 33);
+    font-weight: 600;
+}
+
+.babab:hover {
+    text-decoration: underline;
+}
+
+.facebook {
+    padding-top: 112px;
+    padding-bottom: 16px;
+    width: 301px;
+    height: 106px;
+    margin: -28px;
+}
+
+.bbbbb {
+    position: absolute;
+    bottom: 0;
+    width: 396px;
+    height: 36px;
+    margin-top: 28px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.footer1 {
+    display: block;
+    margin: auto;
+    font-family: inherit;
+    color: rgb(115, 115, 115);
+    width: 980px;
+    height: 155px;
+}
+
+.fula {
+    color: rgb(138, 141, 145);
+    text-decoration: none;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.fula:hover {
+    text-decoration: underline;
+}
+
+.rus {
+    color: rgb(115, 115, 115);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.ful {
+    width: 980px;
+    height: 20px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 8px;
+}
+
+.full {
+    padding-left: 0px;
+    color: rgb(138, 141, 145);
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: -20px;
+}
+
+li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+li a {
+    color: rgb(138, 141, 145);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.contentCurve {
+    border-bottom-color: rgb(218, 221, 225);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", sans-serif;
+    height: 8px;
+    width: 980px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

@@ -63,7 +63,7 @@ body, html{
     width: 1000px;
     overflow: scroll;
     border-radius: 20px;
-    border: 2px yellow solid;
+    border: 2px black solid;
 }
 
 .trash {
@@ -79,7 +79,7 @@ body, html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px yellow solid;
+    border: 2px black solid;
     border-radius: 10px;
     padding: 3px 5px;
 }

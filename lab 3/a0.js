@@ -11,17 +11,34 @@ const createTask = (form) => {
     const hed = document.getElementById("tasks");
     const newElement = document.createElement("div");
     const deleteButton = createDeleteButton();
-    newElement.appendChild(deleteButton);
+    const checkBox = createCheckBox();
+    console.log(checkBox.value);
     deleteButton.classList.add("deleteButton");
     newElement.innerHTML = form.value;
     newElement.classList.add("task1");
     hed.appendChild(newElement);
-    newElement.appendChild(deleteButton)
-}
+    newElement.appendChild(deleteButton);
+    newElement.appendChild(checkBox);
+};
+
+const changeStyle = (checkBox) => {
+
+};
 
 const createCheckBox = () => {
-    const check = document.createElement("");
-}
+    const checkBox = document.createElement("input");
+    checkBox.type = "checkbox";
+    checkBox.addEventListener("click", function () {
+        if (checkBox.checked == true) {
+            checkBox.parentElement.style.textDecoration = "line-through"
+            checkBox.parentElement.style.color = "gray";
+        } else {
+            checkBox.parentElement.style.textDecoration = "none";
+            checkBox.parentElement.style.color = "black";
+        }
+    });
+    return checkBox;
+};
 
 
 const createDeleteButton = () => {
@@ -32,6 +49,11 @@ const createDeleteButton = () => {
     deleteButton.style.appearance = "none";
     deleteButton.classList.add("trash-button");
     deleteImage.classList.add("trash");
+
+    deleteButton.addEventListener("click", function () {
+        deleteButton.parentElement.remove();
+    })
+
     return deleteButton;
 }
 

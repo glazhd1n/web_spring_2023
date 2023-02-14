@@ -73,21 +73,3 @@ const createDeleteButton = () => {
 
     return deleteButton;
 };
-
-const completeTask = () => {
-    const task = 13;
-    const index = toDoList.indexOf(task);
-    if (index !== -1) {
-        toDoList.splice(index, 1);
-        console.log(`"${task}" completed.`);
-    } else {
-        console.log(`"${task}" not found in the to-do list.`);
-    }
-};
-
-const showList = () => {
-    console.log("To-Do List:");
-    toDoList.forEach((task, index) => {
-        console.log(`${index + 1}. ${task}`);
-    });
-};

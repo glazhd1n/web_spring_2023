@@ -1,5 +1,16 @@
+.container-of-products {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
 
+.product {
+    width: 50%;
+}
 
+.description {
+    width: 75%;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

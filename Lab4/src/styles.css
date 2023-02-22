@@ -1,5 +1,10 @@
 /* Global Styles */
 
+app-product-list {
+  display: flex;
+  justify-content: center;
+}
+
 * {
   font-family: 'Roboto', Arial, sans-serif;
   color: #616161;

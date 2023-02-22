@@ -10,8 +10,8 @@ import { products } from '../products';
 export class ProductListComponent {
   products = products;
 
-  share() {
-    const url = `tg://msg_url?url=${encodeURIComponent( '')}`;
+  share(value: string) {
+    const url = `tg://msg_url?url=${encodeURIComponent(value)}`;
     window.location.href = url;
   }
 

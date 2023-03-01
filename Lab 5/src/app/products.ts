@@ -1,4 +1,6 @@
-export interface Product {
+export interface Category {
+
+  category: string;
   id: number;
   name: string;
   rating: number;
@@ -9,8 +11,9 @@ export interface Product {
   link: string;
 }
 
-export const products = [
+export const Category = [
   {
+    category: "phone",
     id: 1,
     img: 'apple-iphone-11-128gb.jpg',
     name: 'iPhone 11',
@@ -23,6 +26,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/apple-iphone-11-64gb-slim-box-chernyi-100692387/?c=750000000'
   },
   {
+    category: "phone",
     id: 2,
     img: 'apple-iphone-14-pro-max.jpg',
     name: 'iPhone 14 pro',
@@ -34,6 +38,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/apple-iphone-14-pro-128gb-fioletovyi-106363283/?c=750000000'
   },
   {
+    category: "phone",
     id: 3,
     img: 'apple-iphone-13-128gb.jpg',
     name: 'iPhone 13',
@@ -46,6 +51,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/apple-iphone-13-256gb-chernyi-102298409/?c=750000000'
   },
   {
+    category: "phone",
     id: 4,
     img: 'Oppo.jpg',
     name: 'OPPO A57s 4 ГБ/128 ГБ',
@@ -57,6 +63,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/oppo-a57s-4-gb-128-gb-chernyi-107622277/?c=750000000'
   },
   {
+    category: "watch",
     id: 5,
     img: 'apple-watch-se.jpg',
     name: 'Apple Watch SE',
@@ -67,6 +74,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/apple-watch-se-2nd-gen-44-mm-chernyi-106362757/?c=750000000#!/item'
   },
   {
+    category: "watch",
     id: 6,
     img: 'smart-casy-xiaomi.jpg',
     name: 'Смарт-часы Xiaomi Redmi Watch 2',
@@ -76,6 +84,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/xiaomi-redmi-watch-2-lite-gl-chernyi-103246651/?c=750000000#!/item'
   },
   {
+    category: "ebook",
     id: 7,
     img: 'pocket-book.jpg',
     name: 'POCKET BOOK PB617-P-CIS черный',
@@ -86,6 +95,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/pocket-book-pb617-p-cis-chernyi-105268772/?c=750000000'
   },
   {
+    category: "ebook",
     id: 8,
     img: 'ritmix-rbk.jpg',
     name: 'Ritmix RBK-677FL черный',
@@ -97,6 +107,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/ritmix-rbk-677fl-chernyi-100613289/?c=750000000'
   },
   {
+    category: "smart-station",
     id: 9,
     img: 'yandeks-novaya-stantsiya.jpg',
     name: 'Умная колонка Яндекс Станция Мини 2 с часами черный',
@@ -111,6 +122,7 @@ export const products = [
     link: 'https://kaspi.kz/shop/p/jandeks-stantsija-mini-2-s-chasami-chernyi-102580021/?c=750000000#!/item'
   },
   {
+    category: "smart-station",
     id: 10,
     img: 'yandeks-stantsiya.jpg',
     name: 'Умная колонка Яндекс Станция Лайт бирюзовый',

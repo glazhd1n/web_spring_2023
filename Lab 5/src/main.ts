@@ -1,11 +1,10 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
+import {CategoryPickerComponent} from "./app/category-picker/category-picker.component";
 
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
-
-
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

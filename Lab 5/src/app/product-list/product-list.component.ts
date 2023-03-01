@@ -43,7 +43,6 @@ export class ProductListComponent {
     const index = Category.indexOf(product);
     product.count_of_likes++;
     Category[index].count_of_likes = product.count_of_likes;
-    setUpdated
   }
 
 }

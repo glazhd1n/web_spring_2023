@@ -136,7 +136,135 @@ export const Category = [
         'Голосовой помощникАлиса\n' +
         'Цветзеленый',
     link: 'https://kaspi.kz/shop/p/jandeks-stantsija-lait-birjuzovyi-101808994/?c=750000000#!/item'
-  }
+  },
+  {
+    category: "phone",
+    id: 11,
+    img: 'apple-iphone-11-128gb.jpg',
+    name: 'iPhone 11',
+    rating: 5,
+    description: 'Размер оперативной памяти 4 ГБ\n' +
+        'Процессор 6-ядерный Apple A13 Bionic\n' +
+        'Частота процессора 2650 МГц\n' +
+        'Объем встроенной памяти 128 ГБ\n' +
+        'Слот карт памяти Нет',
+    link: 'https://kaspi.kz/shop/p/apple-iphone-11-64gb-slim-box-chernyi-100692387/?c=750000000'
+  },
+  {
+    category: "watch",
+    id: 12,
+    img: 'smart-casy-xiaomi.jpg',
+    name: 'Смарт-часы Xiaomi Redmi Watch 2',
+    rating: 5,
+    description: 'Процессор Ambiq Apollo 3.5\n' +
+        'Слот для карты памяти Нет',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-watch-2-lite-gl-chernyi-103246651/?c=750000000#!/item'
+  },
+  {
+    category: "watch",
+    id: 13,
+    img: 'smart-casy-xiaomi.jpg',
+    name: 'Смарт-часы Xiaomi Redmi Watch 2',
+    rating: 5,
+    description: 'Процессор Ambiq Apollo 3.5\n' +
+        'Слот для карты памяти Нет',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-watch-2-lite-gl-chernyi-103246651/?c=750000000#!/item'
+  },
+  {
+    category: "watch",
+    id: 14,
+    img: 'smart-casy-xiaomi.jpg',
+    name: 'Смарт-часы Xiaomi Redmi Watch 2',
+    rating: 5,
+    description: 'Процессор Ambiq Apollo 3.5\n' +
+        'Слот для карты памяти Нет',
+    link: 'https://kaspi.kz/shop/p/xiaomi-redmi-watch-2-lite-gl-chernyi-103246651/?c=750000000#!/item'
+  },
+  {
+    category: "ebook",
+    id: 15,
+    img: 'ritmix-rbk.jpg',
+    name: 'Ritmix RBK-677FL черный',
+    rating: 5,
+    description: 'Частота процессора 600 МГц\n' +
+        'Оперативная память 128 Мб\n' +
+        'Встроенная память 4096 Мб\n' +
+        'Карты памяти micro SD, micro SDHC',
+    link: 'https://kaspi.kz/shop/p/ritmix-rbk-677fl-chernyi-100613289/?c=750000000'
+  },
+  {
+    category: "ebook",
+    id: 16,
+    img: 'ritmix-rbk.jpg',
+    name: 'Ritmix RBK-677FL черный',
+    rating: 5,
+    description: 'Частота процессора 600 МГц\n' +
+        'Оперативная память 128 Мб\n' +
+        'Встроенная память 4096 Мб\n' +
+        'Карты памяти micro SD, micro SDHC',
+    link: 'https://kaspi.kz/shop/p/ritmix-rbk-677fl-chernyi-100613289/?c=750000000'
+  },
+  {
+    category: "ebook",
+    id: 17,
+    img: 'ritmix-rbk.jpg',
+    name: 'Ritmix RBK-677FL черный',
+    rating: 5,
+    description: 'Частота процессора 600 МГц\n' +
+        'Оперативная память 128 Мб\n' +
+        'Встроенная память 4096 Мб\n' +
+        'Карты памяти micro SD, micro SDHC',
+    link: 'https://kaspi.kz/shop/p/ritmix-rbk-677fl-chernyi-100613289/?c=750000000'
+  },
+  {
+    category: "smart-station",
+    id: 18,
+    img: 'yandeks-stantsiya.jpg',
+    name: 'Умная колонка Яндекс Станция Лайт бирюзовый',
+    rating: 2,
+    description: 'Диапазон воспроизводимых частот50-60 Гц\n' +
+        'Поддержка потоковых аудиосервисовДа\n' +
+        'Суммарная мощность5 Вт\n' +
+        'Широкополосные динамики40 мм\n' +
+        'Поддержка потоковых видеосервисовНет\n' +
+        'Управление умным домомДа\n' +
+        'Голосовой помощникАлиса\n' +
+        'Цветзеленый',
+    link: 'https://kaspi.kz/shop/p/jandeks-stantsija-lait-birjuzovyi-101808994/?c=750000000#!/item'
+  },
+  {
+    category: "smart-station",
+    id: 19,
+    img: 'yandeks-stantsiya.jpg',
+    name: 'Умная колонка Яндекс Станция Лайт бирюзовый',
+    rating: 2,
+    description: 'Диапазон воспроизводимых частот50-60 Гц\n' +
+        'Поддержка потоковых аудиосервисовДа\n' +
+        'Суммарная мощность5 Вт\n' +
+        'Широкополосные динамики40 мм\n' +
+        'Поддержка потоковых видеосервисовНет\n' +
+        'Управление умным домомДа\n' +
+        'Голосовой помощникАлиса\n' +
+        'Цветзеленый',
+    link: 'https://kaspi.kz/shop/p/jandeks-stantsija-lait-birjuzovyi-101808994/?c=750000000#!/item'
+  },
+  {
+    category: "smart-station",
+    id: 20,
+    img: 'yandeks-stantsiya.jpg',
+    name: 'Умная колонка Яндекс Станция Лайт бирюзовый',
+    rating: 2,
+    description: 'Диапазон воспроизводимых частот50-60 Гц\n' +
+        'Поддержка потоковых аудиосервисовДа\n' +
+        'Суммарная мощность5 Вт\n' +
+        'Широкополосные динамики40 мм\n' +
+        'Поддержка потоковых видеосервисовНет\n' +
+        'Управление умным домомДа\n' +
+        'Голосовой помощникАлиса\n' +
+        'Цветзеленый',
+    link: 'https://kaspi.kz/shop/p/jandeks-stantsija-lait-birjuzovyi-101808994/?c=750000000#!/item'
+  },
+
 ];
 
 

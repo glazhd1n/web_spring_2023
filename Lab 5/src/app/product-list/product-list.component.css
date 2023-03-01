@@ -12,6 +12,12 @@
 .description {
     width: 75%;
 }
+
+.buttons-div {
+    display: flex;
+    height: 8%;
+    align-items: center;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

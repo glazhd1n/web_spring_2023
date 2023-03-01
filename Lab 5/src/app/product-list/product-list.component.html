@@ -20,9 +20,17 @@
         <p *ngIf="product.rating" class="description">
             <strong>Rating:</strong> {{ product.rating }}
         </p>
-        <button type="button" (click)="share(product.link)">
-          Share
-        </button>
+        <div class="buttons-div">
+            <button type="button" (click)="share(product.link)">
+                Share
+            </button>
+            <button type="button" (click)="likeAdd(product)">
+                like
+            </button>
+            <h4>
+                {{ product.count_of_likes }}
+            </h4>
+        </div>
 
     </div>
 </div>

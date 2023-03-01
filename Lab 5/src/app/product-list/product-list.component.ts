@@ -7,13 +7,36 @@ import {CategoryList} from "../category";
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
+  categoryOfProduct = '';
   category = CategoryList;
+  newProducts = [];
   products = Category;
   // if()
   // for()
+  changeCategory(value: string) {
+    this.categoryOfProduct = value;
+    console.log(this.categoryOfProduct)
+    this.changeItems()
+  }
   share(value: string) {
     const url = `tg://msg_url?url=${encodeURIComponent(value)}`;
     window.location.href = url;
+  }
+
+  changeItems() {
+    this.products = Category;
+    if(this.categoryOfProduct === 'all') {
+      return;
+    }
+    for(let item of this.products) {
+      if (this.categoryOfProduct != item.category) {
+        continue;
+      }
+      // @ts-ignore
+      this.newProducts.push(item)
+    }
+    this.products = this.newProducts;
+    this.newProducts = [];
   }
 
 }

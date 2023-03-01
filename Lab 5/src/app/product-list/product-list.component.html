@@ -1,4 +1,4 @@
-<select id="item-select">
+<select id="item-select" #item_category (change)="changeCategory(item_category.value)">
     <option  *ngFor="let item of category" value="{{ item.category }}">{{item.name}}</option>
 </select>
 

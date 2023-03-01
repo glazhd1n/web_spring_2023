@@ -1,13 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Category } from '../products';
-import { CategoryList } from '../category'
+import {CategoryList} from "../category";
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
+  category = CategoryList;
   products = Category;
+  // if()
+  // for()
   share(value: string) {
     const url = `tg://msg_url?url=${encodeURIComponent(value)}`;
     window.location.href = url;

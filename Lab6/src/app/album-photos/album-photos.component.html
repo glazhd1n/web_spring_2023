@@ -1,0 +1,7 @@
+<a href="/albums/{{photos[0].albumId}}">← Return back</a>
+<div class="photos-class">
+  <div *ngFor="let photo of photos">
+    <h3>{{photo.id}}) {{photo.title}}</h3>
+    <img src="{{ photo.url }}" alt="">
+  </div>
+</div>

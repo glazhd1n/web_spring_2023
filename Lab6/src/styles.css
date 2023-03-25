@@ -155,6 +155,16 @@ app-not-found h1 {
   font-weight: bold;
 }
 
+.photos-class {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+app-album-details {
+  display: flex;
+  justify-content: center;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

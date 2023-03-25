@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {Album} from "../models";
-import {HttpClient} from "@angular/common/http";
 import {ActivatedRoute} from "@angular/router";
 import {AlbumService} from "../album.service";
 
@@ -11,11 +10,8 @@ import {AlbumService} from "../album.service";
 })
 export class AlbumDetailsComponent implements OnInit {
   album: Album;
-  url: string;
-
   constructor(private route: ActivatedRoute, private albumService: AlbumService) {
     this.album = {} as Album;
-    this.url = '';
   }
   ngOnInit() {
     this.route.paramMap.subscribe((params) => {
@@ -23,7 +19,6 @@ export class AlbumDetailsComponent implements OnInit {
       console.log(id);
       this.albumService.getOneAlbum(id).subscribe((album) => {
         this.album = album;
-        this.url = ``
       });
     })
   }

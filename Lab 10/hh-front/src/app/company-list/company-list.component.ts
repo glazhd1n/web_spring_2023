@@ -37,14 +37,19 @@ export class CompanyListComponent implements OnInit {
     )
   }
 
-  
+
   onClickAng(cur_id: number): void {
-    console.log(cur_id)
     if (cur_id !== -1) {
       this.backendService.getVacancies(cur_id).subscribe(
         (vacancies) => {
+          const formatter = new Intl.NumberFormat('kk-KZ', {
+            style: 'currency',
+            currency: 'KZT'
+          });
+          vacancies.forEach(function (vacanie) {
+            vacanie.formated_salary = String(formatter.format(vacanie.salary));
+          });
           this.vacancies = vacancies;
-          console.log(this.vacancies)
         },
         (error) => {
           console.error(error);

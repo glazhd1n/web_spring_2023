@@ -11,7 +11,9 @@
 
 <h2>Vacancies</h2>
 <ul>
-  <li *ngFor="let vacancy of vacancies">
-    {{ vacancy.name }}{{vacancy.description}}
+  <li *ngFor="let vacancy of vacancies" class="companies">
+      <span id="name">Vacancy name: {{ vacancy.name }}</span>
+      <span id="description">Description: {{ vacancy.description }} </span>
+      <span id="salary">salary: {{ vacancy.formated_salary }} </span>
   </li>
 </ul>

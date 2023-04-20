@@ -6,7 +6,6 @@
 <ul>
   <li style="list-style: none;" *ngFor="let company of companies" (click)="selectCompany(company)">
     <button (click)="onClickAng(company.id)">{{ company.name }}</button>
-    {{company.id}}
   </li>
 </ul>
 

@@ -8,11 +8,12 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BackendService {
-  private API_URL = 'http://127.0.0.1:8000'; 
+  private API_URL = 'http://127.0.0.1:8000';
 
   constructor(private http: HttpClient) {}
 
   getCompanies():Observable<Company[]> {
+    // console.log(this.http.get<Company>(`${this.API_URL}/companies/`))
     return this.http.get<Company[]>(`${this.API_URL}/companies/`);
   }
 
